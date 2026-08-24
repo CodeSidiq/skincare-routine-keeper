@@ -555,3 +555,71 @@ input:focus {
     min-height: 195px;
   }
 }
+
+@media (max-width: 620px) {
+  .app-shell {
+    width: 100%;
+    padding: 28px 16px 52px;
+  }
+
+  .hero {
+    width: 100%;
+    gap: 22px;
+  }
+
+  .hero-copy {
+    width: 100%;
+    max-width: none;
+  }
+
+  .hero h1 {
+    max-width: 100%;
+    font-size: clamp(2.7rem, 14vw, 4rem);
+    line-height: 0.96;
+  }
+
+  .hero-description {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .routine-summary {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .routine-summary span {
+    padding: 14px 16px;
+    border: 1px solid #dedfd7;
+    border-radius: 14px;
+    background: rgba(255, 255, 252, 0.55);
+  }
+
+  .content-grid {
+    width: 100%;
+    gap: 42px;
+    padding-top: 34px;
+  }
+
+  .form-card {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 22px;
+  }
+
+  .shelf-area {
+    width: 100%;
+  }
+
+  .routine-section {
+    width: 100%;
+  }
+
+  .product-grid,
+  .empty-shelf {
+    width: 100%;
+  }
+}
