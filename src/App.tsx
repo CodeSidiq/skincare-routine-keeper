@@ -194,6 +194,7 @@ function App() {
                     <button
                       type="button"
                       key={slot}
+                      aria-pressed={form.routine === slot}
                       className={form.routine === slot ? 'selected' : ''}
                       onClick={() =>
                         setForm((current) => ({

@@ -677,3 +677,9 @@ input:focus {
     width: 100%;
   }
 }
+
+@media (max-width: 620px) {
+  .form-card {
+    backdrop-filter: none;
+  }
+}
