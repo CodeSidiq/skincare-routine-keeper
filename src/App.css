@@ -623,3 +623,57 @@ input:focus {
     width: 100%;
   }
 }
+
+@media (max-width: 620px) {
+  .hero {
+    align-items: stretch;
+  }
+
+  .hero-copy {
+    text-align: center;
+  }
+
+  .hero h1 {
+    max-width: 360px;
+    margin-inline: auto;
+    font-size: clamp(2.5rem, 12vw, 3.5rem);
+    line-height: 0.98;
+  }
+
+  .hero-description {
+    max-width: 380px;
+    margin-inline: auto;
+    margin-top: 18px;
+  }
+
+  .eyebrow {
+    text-align: center;
+  }
+
+  .routine-summary {
+    max-width: 380px;
+    margin-inline: auto;
+  }
+
+  .routine-summary span {
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-grid {
+    max-width: 420px;
+    margin-inline: auto;
+  }
+
+  .form-card {
+    width: 100%;
+  }
+
+  .shelf-area {
+    width: 100%;
+  }
+
+  .routine-header {
+    width: 100%;
+  }
+}
